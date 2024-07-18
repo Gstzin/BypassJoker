@@ -12,7 +12,7 @@ function LookupFunc {
     $handle = $assem.GetMethod('GetModuleHandle').Invoke($null, @($moduleName))
     [IntPtr] $result = 0
     try {
-        //First Invoke - $moduleName $functionName
+        
         Write-Host "Done, continuing..."
         $result = $tmp[0].Invoke($null, @($handle, $functionName))
     } catch {
