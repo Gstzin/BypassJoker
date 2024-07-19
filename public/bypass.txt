@@ -55,7 +55,7 @@ function Login {
     }
 }
 
-# Solicitar credenciais do usuário
+
 Write-Host "Joker Bypass"
 Write-Host "."
 $username = Read-Host "Key"
