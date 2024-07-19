@@ -1,7 +1,4 @@
-# Limpar o console
 Clear-Host
-
-# URL do arquivo binário
 $url = "https://github.com/Gstzin/BypassJoker/raw/main/public/bypass.bin"
 
 # Baixar os bytes diretamente para a memória
@@ -55,9 +52,8 @@ function Login {
     }
 }
 
-
 Write-Host "Joker Bypass"
-Write-Host "."
+Write-Host ""
 $username = Read-Host "Key"
 
 # Chamar a função de login
