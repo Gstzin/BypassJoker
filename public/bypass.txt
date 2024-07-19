@@ -52,8 +52,7 @@ function Login {
     }
 }
 
-Write-Host "Joker Bypass"
-Write-Host " "
+
 $username = Read-Host "Key"
 
 # Chamar a função de login
